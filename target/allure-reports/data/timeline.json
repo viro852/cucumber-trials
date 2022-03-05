@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "DESKTOP-M2ANVBJ",
     "children" : [ {
-      "name" : "24128@DESKTOP-M2ANVBJ.main(1)",
+      "name" : "12824@DESKTOP-M2ANVBJ.main(1)",
       "children" : [ {
         "name" : "Правильный расчет ипотеки на вторичное жилье",
-        "uid" : "a3661ad3f4f6057a",
-        "parentUid" : "32968ed238a2ea671515355e5fb467ab",
+        "uid" : "919af40e66292b56",
+        "parentUid" : "0f33e585a77e5a09778cfc46e76ddf0c",
         "status" : "failed",
         "time" : {
-          "start" : 1646484655392,
-          "stop" : 1646484679271,
-          "duration" : 23879
+          "start" : 1646490717712,
+          "stop" : 1646490747553,
+          "duration" : 29841
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "32968ed238a2ea671515355e5fb467ab"
+      "uid" : "0f33e585a77e5a09778cfc46e76ddf0c"
     } ],
     "uid" : "8323ccdb24f0b8dccd8de73cf14efcf0"
   } ]

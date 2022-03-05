@@ -5,13 +5,13 @@
     "name" : "Калькулятор ипотеки на вторичное жилье",
     "children" : [ {
       "name" : "Правильный расчет ипотеки на вторичное жилье",
-      "uid" : "a3661ad3f4f6057a",
+      "uid" : "919af40e66292b56",
       "parentUid" : "d10a7dee85182f47154499fa0fcce64c",
       "status" : "failed",
       "time" : {
-        "start" : 1646484655392,
-        "stop" : 1646484679271,
-        "duration" : 23879
+        "start" : 1646490717712,
+        "stop" : 1646490747553,
+        "duration" : 29841
       },
       "flaky" : false,
       "newFailed" : false,
