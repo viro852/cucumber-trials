@@ -1,7 +1,7 @@
 #игнор папки
 .idea
-.allure
 target
 
 #игнор файлов
 *.iml
+/.allure/
