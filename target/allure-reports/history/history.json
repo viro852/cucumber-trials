@@ -1,0 +1,22 @@
+{
+  "e0da69c588b82ec61c0737c81cdc9d32" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a3661ad3f4f6057a",
+      "status" : "failed",
+      "statusDetails" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
+      "time" : {
+        "start" : 1646484655392,
+        "stop" : 1646484679271,
+        "duration" : 23879
+      }
+    } ]
+  }
+}

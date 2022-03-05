@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
+      "children" : [ {
+        "name" : "Правильный расчет ипотеки на вторичное жилье",
+        "uid" : "a3661ad3f4f6057a",
+        "parentUid" : "30e547d625b80f46719f7fd69b13c2c6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1646484655392,
+          "stop" : 1646484679271,
+          "duration" : 23879
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "30e547d625b80f46719f7fd69b13c2c6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

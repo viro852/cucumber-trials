@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: ru.ibs.appline.framework.runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 26.113 s <<< FAILURE! - in ru.ibs.appline.framework.runner.RunCucumberTest
+Калькулятор ипотеки на вторичное жилье.Правильный расчет ипотеки на вторичное жилье  Time elapsed: 24.456 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>
+

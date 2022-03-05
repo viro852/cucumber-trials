@@ -1,0 +1,22 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "src.test.resources.scenario.cucumberTest_feature.Калькулятор ипотеки на вторичное жилье",
+    "children" : [ {
+      "name" : "Правильный расчет ипотеки на вторичное жилье",
+      "uid" : "a3661ad3f4f6057a",
+      "parentUid" : "8621b995d79fe45249c22127601086b9",
+      "status" : "failed",
+      "time" : {
+        "start" : 1646484655392,
+        "stop" : 1646484679271,
+        "duration" : 23879
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "src.test.resources.scenario.cucumberTest_feature.Калькулятор ипотеки на вторичное жилье"
+  } ]
+}

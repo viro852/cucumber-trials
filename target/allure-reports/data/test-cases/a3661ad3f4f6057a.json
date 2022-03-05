@@ -1,0 +1,271 @@
+{
+  "uid" : "a3661ad3f4f6057a",
+  "name" : "Правильный расчет ипотеки на вторичное жилье",
+  "fullName" : "Калькулятор ипотеки на вторичное жилье: Правильный расчет ипотеки на вторичное жилье",
+  "historyId" : "e0da69c588b82ec61c0737c81cdc9d32",
+  "time" : {
+    "start" : 1646484655392,
+    "stop" : 1646484679271,
+    "duration" : 23879
+  },
+  "status" : "failed",
+  "statusMessage" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
+  "statusTrace" : "org.opentest4j.AssertionFailedError: Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkFieldValue(MortgageOnFinishedHomesPage.java:142)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesPage.java:124)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.lambda$checkCalculatorFieldsByCorrectValues$1(MortgageOnFinishedHomesStep.java:42)\r\n\tat java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)\r\n\tat java.base/java.util.Collections$UnmodifiableMap.forEach(Collections.java:1553)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesStep.java:42)\r\n\tat ✽.Проверяем правильность расчетов калькулятора ипотеки на вторичное жилье:(file:///C:/Users/User/IdeaProjects/cucumber_trials/src/test/resources/scenario/cucumberTest.feature:18)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "ru.ibs.appline.framework.steps.Hooks.before()",
+    "time" : {
+      "start" : 1646484655395,
+      "stop" : 1646484665636,
+      "duration" : 10241
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
+    "statusTrace" : "org.opentest4j.AssertionFailedError: Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkFieldValue(MortgageOnFinishedHomesPage.java:142)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesPage.java:124)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.lambda$checkCalculatorFieldsByCorrectValues$1(MortgageOnFinishedHomesStep.java:42)\r\n\tat java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)\r\n\tat java.base/java.util.Collections$UnmodifiableMap.forEach(Collections.java:1553)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesStep.java:42)\r\n\tat ✽.Проверяем правильность расчетов калькулятора ипотеки на вторичное жилье:(file:///C:/Users/User/IdeaProjects/cucumber_trials/src/test/resources/scenario/cucumberTest.feature:18)\r\n",
+    "steps" : [ {
+      "name" : "*  Проверяем,что стартовая страница успешно загрузилась",
+      "time" : {
+        "start" : 1646484665640,
+        "stop" : 1646484665836,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  В верхнем меню наводим курсор на 'Ипотека'",
+      "time" : {
+        "start" : 1646484665838,
+        "stop" : 1646484666309,
+        "duration" : 471
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  В выпадающем меню кликаем на 'Вторичное жильё'",
+      "time" : {
+        "start" : 1646484666309,
+        "stop" : 1646484670351,
+        "duration" : 4042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Проверяем,что страница с ипотекой на вторичное жильё успешно загрузилась",
+      "time" : {
+        "start" : 1646484670351,
+        "stop" : 1646484670427,
+        "duration" : 76
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Кликаем на кнопку 'Рассчитать ипотеку'",
+      "time" : {
+        "start" : 1646484670427,
+        "stop" : 1646484670849,
+        "duration" : 422
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Проверяем,что спустились к 'Калькулятор ипотеки на вторичное жилье'",
+      "time" : {
+        "start" : 1646484670850,
+        "stop" : 1646484671018,
+        "duration" : 168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Заполняем поля калькулятора для расчета ипотеки на вторичное жилье:",
+      "time" : {
+        "start" : 1646484671019,
+        "stop" : 1646484675739,
+        "duration" : 4720
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1ccf3bb124fc4d17",
+        "name" : "Data table",
+        "source" : "1ccf3bb124fc4d17.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 137
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Ставим галочку 'Ипотека для семей с детьми'",
+      "time" : {
+        "start" : 1646484675739,
+        "stop" : 1646484675992,
+        "duration" : 253
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "*  Проверяем правильность расчетов калькулятора ипотеки на вторичное жилье:",
+      "time" : {
+        "start" : 1646484675993,
+        "stop" : 1646484678238,
+        "duration" : 2245
+      },
+      "status" : "failed",
+      "statusMessage" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
+      "statusTrace" : "org.opentest4j.AssertionFailedError: Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>\r\n\tat org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)\r\n\tat org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)\r\n\tat org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)\r\n\tat org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1152)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkFieldValue(MortgageOnFinishedHomesPage.java:142)\r\n\tat ru.ibs.appline.framework.pages.MortgageOnFinishedHomesPage.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesPage.java:124)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.lambda$checkCalculatorFieldsByCorrectValues$1(MortgageOnFinishedHomesStep.java:42)\r\n\tat java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:721)\r\n\tat java.base/java.util.Collections$UnmodifiableMap.forEach(Collections.java:1553)\r\n\tat ru.ibs.appline.framework.steps.MortgageOnFinishedHomesStep.checkCalculatorFieldsByCorrectValues(MortgageOnFinishedHomesStep.java:42)\r\n\tat ✽.Проверяем правильность расчетов калькулятора ипотеки на вторичное жилье:(file:///C:/Users/User/IdeaProjects/cucumber_trials/src/test/resources/scenario/cucumberTest.feature:18)\r\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "98fc053f19d15a97",
+        "name" : "Data table",
+        "source" : "98fc053f19d15a97.csv",
+        "type" : "text/tab-separated-values",
+        "size" : 150
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 9,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "ru.ibs.appline.framework.steps.Hooks.TakeScreenShot(io.cucumber.java.Scenario)",
+    "time" : {
+      "start" : 1646484678239,
+      "stop" : 1646484679148,
+      "duration" : 909
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e6bef057261e8cbe",
+      "name" : "Screenshot",
+      "source" : "e6bef057261e8cbe.png",
+      "type" : "image/png",
+      "size" : 114181
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "mortgage"
+  }, {
+    "name" : "tag",
+    "value" : "success"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-M2ANVBJ"
+  }, {
+    "name" : "thread",
+    "value" : "24128@DESKTOP-M2ANVBJ.main(1)"
+  }, {
+    "name" : "feature",
+    "value" : "Калькулятор ипотеки на вторичное жилье"
+  }, {
+    "name" : "story",
+    "value" : "Правильный расчет ипотеки на вторичное жилье"
+  }, {
+    "name" : "suite",
+    "value" : "Калькулятор ипотеки на вторичное жилье"
+  }, {
+    "name" : "testClass",
+    "value" : "Правильный расчет ипотеки на вторичное жилье"
+  }, {
+    "name" : "framework",
+    "value" : "cucumber4jvm"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "gherkin_uri",
+    "value" : "file:///C:/Users/User/IdeaProjects/cucumber_trials/src/test/resources/scenario/cucumberTest.feature"
+  }, {
+    "name" : "package",
+    "value" : "src.test.resources.scenario.cucumberTest_feature.Калькулятор ипотеки на вторичное жилье"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "mortgage", "success" ]
+  },
+  "source" : "a3661ad3f4f6057a.json",
+  "parameterValues" : [ ]
+}
