@@ -1,5 +1,5 @@
 {
-  "e0da69c588b82ec61c0737c81cdc9d32" : {
+  "8d5de1b7708346a2e8fddc13efa3b763" : {
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
@@ -9,13 +9,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "919af40e66292b56",
+      "uid" : "16c8259c3aa36b79",
       "status" : "failed",
       "statusDetails" : "Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>",
       "time" : {
-        "start" : 1646490717712,
-        "stop" : 1646490747553,
-        "duration" : 29841
+        "start" : 1646568093289,
+        "stop" : 1646568114591,
+        "duration" : 21302
+      }
+    } ]
+  },
+  "cc76e2982fcc69508c23a0605e4f5137" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f32bd8ff31241a6f",
+      "status" : "broken",
+      "statusDetails" : "Session ID is null. Using WebDriver after calling quit()?\nBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'\nSystem info: host: 'DESKTOP-M2ANVBJ', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'\nDriver info: driver.version: RemoteWebDriver",
+      "time" : {
+        "start" : 1646568114891,
+        "stop" : 1646568125174,
+        "duration" : 10283
       }
     } ]
   }

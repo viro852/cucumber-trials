@@ -7,18 +7,19 @@ import io.qameta.allure.Allure;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import ru.ibs.appline.framework.managers.InitFramework;
 import ru.ibs.appline.framework.managers.WebDriverManager;
 
 import java.io.ByteArrayInputStream;
 
 public class Hooks {
 
-    WebDriverManager webDriverManager = WebDriverManager.getInstance();
+  private final   WebDriverManager webDriverManager = WebDriverManager.getInstance();
+  private InitFramework initFramework = InitFramework.getInstance();
 
     @Before
     public void before() {
-        WebDriver seleniumWebDriver = webDriverManager.getSeleniumWebDriver();
-        seleniumWebDriver.get("https://alfabank.ru/");
+        initFramework.startFramework();
     }
 
     @After
@@ -26,7 +27,7 @@ public class Hooks {
         if (scenario.isFailed()) {
             Allure.addAttachment("Screenshot", new ByteArrayInputStream(((TakesScreenshot) webDriverManager.getSeleniumWebDriver()).getScreenshotAs(OutputType.BYTES)));
         }
-        webDriverManager.quitSeleniumWebDriver();
+        initFramework.quitFramework();
     }
 
 

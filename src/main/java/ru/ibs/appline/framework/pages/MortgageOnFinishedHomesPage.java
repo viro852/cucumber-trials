@@ -10,37 +10,37 @@ import static org.junit.jupiter.api.Assertions.*;
 public class MortgageOnFinishedHomesPage extends BasePage {
 
     @FindBy(xpath = "//h1[contains(text(),  \"вторичное жильё\") and contains(text(),\"Ипотека\")]")
-    WebElement mortgagePageH1;
+    private WebElement mortgagePageH1;
 
     @FindBy(xpath = "//span[contains(text(),'Рассчитать ипо')]")
-    WebElement calculateMortgageButton;
+    private WebElement calculateMortgageButton;
 
     @FindBy(xpath = "//p[contains(text(),'Калькулятор ипотеки')]")
-    WebElement finishedHomesMortgageCalculatorText;
+    private WebElement finishedHomesMortgageCalculatorText;
 
     @FindBy(xpath = "//input[@aria-label=\"Стоимость недвижимости\"]")
-    WebElement propertyPriceInputField;
+    private WebElement propertyPriceInputField;
 
     @FindBy(xpath = "//input[@aria-label=\"Первоначальный взнос\"]")
-    WebElement initialPaymentInputField;
+    private WebElement initialPaymentInputField;
 
     @FindBy(xpath = "//input[@aria-label=\"Срок кредитования\"]")
-    WebElement creditPeriodInputField;
+    private WebElement creditPeriodInputField;
 
     @FindBy(xpath = "//div[@class=\"aOOAsX fOOAsX nOOAsX a2kwpw\"]/div[1]//label[@class=\"a2Pj2k g2Pj2k j2Pj2k l2Pj2k\"]")
-    WebElement mortgage4FamilyWithChildrenCheckbox;
+    private WebElement mortgage4FamilyWithChildrenCheckbox;
 
     @FindBy(xpath = "//p[@class=\"a3IoXD c3IoXD u3IoXD e1AM-T d1AM-T g1AM-T\"]")
-    WebElement monthlyPayment;
+    private WebElement monthlyPayment;
 
     @FindBy(xpath = "//div[@class=\"aANiGw\"]/div[1]//p[@class=\"a2CVaU c2CVaU K2CVaU a2CURt b2CURt\"]")
-    WebElement mortgageRate;
+    private WebElement mortgageRate;
 
     @FindBy(xpath = "//div[@class=\"aANiGw\"]/div[2]//p[@class=\"a2CVaU c2CVaU K2CVaU a2CURt b2CURt\"]")
-    WebElement creditSum;
+    private WebElement creditSum;
 
     @FindBy(xpath = "//div[@class=\"aANiGw\"]/div[3]//p[@class=\"a2CVaU c2CVaU K2CVaU a2CURt b2CURt\"]")
-    WebElement taxDeduction;
+    private WebElement taxDeduction;
 
 
     public MortgageOnFinishedHomesPage checkThatPageIsLoad() {

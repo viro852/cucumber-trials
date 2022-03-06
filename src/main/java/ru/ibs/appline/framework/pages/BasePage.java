@@ -6,17 +6,22 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import ru.ibs.appline.framework.managers.PageManager;
 import ru.ibs.appline.framework.managers.WebDriverManager;
 
 public class BasePage {
-    WebDriver seleniumWebDriver = WebDriverManager.getInstance().getSeleniumWebDriver();
-    WebDriverWait wait = new WebDriverWait(seleniumWebDriver, 20);
-    PageManager pageManager = PageManager.getInstance();
+    private final Logger LOGGER = LoggerFactory.getLogger(BasePage.class);
+    protected WebDriver seleniumWebDriver = WebDriverManager.getInstance().getSeleniumWebDriver();
+    protected WebDriverWait wait = new WebDriverWait(seleniumWebDriver, 20);
+    protected PageManager pageManager = PageManager.getInstance();
 
     public BasePage() {
         PageFactory.initElements(seleniumWebDriver, this);
+        LOGGER.info("Привет это: " + this + " инициализировалась");
     }
+
 
     public WebElement waitUntilElementToBeClickable(WebElement element) {
         return wait.until(ExpectedConditions.elementToBeClickable(element));

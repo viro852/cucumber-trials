@@ -4,7 +4,7 @@ import io.cucumber.java.ru.И;
 import ru.ibs.appline.framework.managers.PageManager;
 
 public class StartPageStep {
-    PageManager pageManager = PageManager.getInstance();
+   private final PageManager pageManager = PageManager.getInstance();
 
     @И("Проверяем,что стартовая страница успешно загрузилась")
     public void checkThatPageIsLoad() {

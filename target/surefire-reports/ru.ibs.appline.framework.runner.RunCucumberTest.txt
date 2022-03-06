@@ -1,7 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: ru.ibs.appline.framework.runner.RunCucumberTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 31.931 s <<< FAILURE! - in ru.ibs.appline.framework.runner.RunCucumberTest
-Калькулятор ипотеки на вторичное жилье.Правильный расчет ипотеки на вторичное жилье  Time elapsed: 30.567 s  <<< FAILURE!
+Tests run: 2, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 33.525 s <<< FAILURE! - in ru.ibs.appline.framework.runner.RunCucumberTest
+Калькулятор ипотеки на вторичное жилье.: Правильный расчет ипотеки на вторичное жилье  Time elapsed: 21.891 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: Калькулятор ипотеки на вторичное жилье совершил неверный расчет в поле 'Ставка', ожидали 11.89 %, а получили 4,89 % ==> expected: <11.89 %> but was: <4,89 %>
+
+Калькулятор ипотеки на вторичное жилье.: Правильный расчет ипотеки на вторичное жилье  Time elapsed: 10.37 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-M2ANVBJ', ip: '192.168.1.89', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: driver.version: RemoteWebDriver
 

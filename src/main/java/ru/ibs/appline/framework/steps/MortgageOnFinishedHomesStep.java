@@ -7,7 +7,7 @@ import ru.ibs.appline.framework.managers.PageManager;
 import java.util.Map;
 
 public class MortgageOnFinishedHomesStep {
-    PageManager pageManager = PageManager.getInstance();
+    private final PageManager pageManager = PageManager.getInstance();
 
     @И("Проверяем,что страница с ипотекой на вторичное жильё успешно загрузилась")
     public void checkThatPageIsLoad() {

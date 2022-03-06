@@ -1,8 +1,14 @@
+ru\ibs\appline\framework\steps\Hooks.class
+ru\ibs\appline\framework\managers\PageManager.class
+ru\ibs\appline\framework\utils\AntiHardcoreConsts$ExplicitAndImplicitWaitConsts.class
+ru\ibs\appline\framework\utils\AntiHardcoreConsts$Urls.class
+ru\ibs\appline\framework\managers\InitFramework.class
 ru\ibs\appline\framework\pages\BasePage.class
+ru\ibs\appline\framework\utils\AntiHardcoreConsts$Paths.class
 ru\ibs\appline\framework\steps\StartPageStep.class
 ru\ibs\appline\framework\managers\WebDriverManager.class
 ru\ibs\appline\framework\pages\StartPage.class
-ru\ibs\appline\framework\steps\Hooks.class
-ru\ibs\appline\framework\managers\PageManager.class
+ru\ibs\appline\framework\utils\AntiHardcoreConsts.class
+ru\ibs\appline\framework\managers\PropManager.class
 ru\ibs\appline\framework\steps\MortgageOnFinishedHomesStep.class
 ru\ibs\appline\framework\pages\MortgageOnFinishedHomesPage.class
