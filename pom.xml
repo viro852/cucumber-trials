@@ -151,7 +151,7 @@
                         <id>allure-plugin</id>
                         <phase>install</phase>
                         <goals>
-                            <goal>report</goal>
+                            <goal>serve</goal>
                         </goals>
                     </execution>
                 </executions>
