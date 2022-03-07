@@ -17,36 +17,33 @@ public class StartPage extends BasePage {
     @FindBy(xpath = "//span[@class=\"q1Cda9\"]")
     private List<WebElement> topMenuElementsList;
 
-    public StartPage checkThatPageIsLoad() {
+    public void checkThatPageIsLoad() {
         wait.until(ExpectedConditions.titleIs("Альфа-Банк - кредитные и дебетовые карты, кредиты наличными, автокредитование, ипотека и другие банковские услуги физическим и юридическим лицам – Альфа-Банк"));
         Assertions.assertEquals("Альфа-Банк - кредитные и дебетовые карты, кредиты наличными, автокредитование, ипотека и другие банковские услуги физическим и юридическим лицам – Альфа-Банк", seleniumWebDriver.getTitle(), "Мы не перешли на стартовую страницу");
-        return this;
     }
 
-    public StartPage moveTopMenuNeededElement(String topMenuElementName) {
+    public void moveTopMenuNeededElement(String topMenuElementName) {
         Actions actions = new Actions(seleniumWebDriver);
         for (WebElement topMenuElement : topMenuElementsList) {
             if (topMenuElement.findElement(By.xpath(".//a")).getAttribute("title").contains(topMenuElementName)) {
                 actions.moveToElement(topMenuElement).perform();
-                return this;
+                return;
             }
         }
         Assertions.fail("Не удалось найти переданный элемент в верхнем меню стартовой страницы");
-        return this;
     }
 
-    public MortgageOnFinishedHomesPage clickDropDownMenuToNeededElement(String dropDownMenuElementName) {
+    public void clickDropDownMenuToNeededElement(String dropDownMenuElementName) {
         for (WebElement dropDownMenuElement : dropDownMenu) {
             if (dropDownMenuElement.getAttribute("title").contains(dropDownMenuElementName)) {
                 System.out.println("нужный элемент выпадающего меню найден");
                 waitUntilElementToBeClickable(dropDownMenuElement);
                 dropDownMenuElement.click();
-                return pageManager.getMortgageOnFinishedHomesPage();
+                return;
             }
             System.out.println("поиск нужного элемента");
         }
         Assert.fail("не удалось найти переданный элемент в выпадающем меню стартовой страницы");
-        return pageManager.getMortgageOnFinishedHomesPage();
     }
 
 }

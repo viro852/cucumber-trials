@@ -14,5 +14,10 @@ public class AntiHardcoreConsts {
 
     public static class Paths {
         public static final String CHROME_DRIVER_PATH = "C:\\Users\\User\\IdeaProjects\\chromedriver.exe";
+        public static final String MOZILLA_DRIVER_PATH = "C:\\Users\\User\\IdeaProjects\\geckodriver.exe";
+    }
+
+    public static class CurrentDriver {
+        public static String BROWSER_TYPE = "chrome";
     }
 }

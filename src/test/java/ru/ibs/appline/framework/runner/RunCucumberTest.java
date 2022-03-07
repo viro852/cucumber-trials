@@ -9,7 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/scenario",
         glue = "ru.ibs.appline.framework.steps",
         tags = "@mortgage",
-        plugin = "io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm")
+        plugin = {"io.qameta.allure.cucumber5jvm.AllureCucumber5Jvm", "pretty"}
+)
 public class RunCucumberTest {
 
 }
